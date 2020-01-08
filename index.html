@@ -4,7 +4,7 @@
 <html>
 <head>
     <title>Restauraunt Menu</title>
-    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <link href="./CSS/index.css" rel = "stylesheet" type = "text/css" />
 </head>
   <body>
     <header>
@@ -60,9 +60,7 @@
             </tr>
             <tr>
                 <td>Soda</td>
-                <td>Regular,diet,
-                orange,or root beer
-                </td>
+                <td>Regular,diet,orange,or root beer </td>
                 <td>$1.00</td>
             </tr>
         </tbody>
@@ -72,20 +70,29 @@
     <form action="" method="GET">
       <fieldset>
         <legend>Leave us a comment</legend>
-        <label for="firstnameInput">
-          First name : <input type="text" id="firstnameInput">
-        </label>
-        <label for="lastnameInput">
-          Last name : <input type="text" id="lastnameInput">
-        </label>
-        <label for="emailInput">
-          Email : <input type="email" id="emailInput">
-        </label>
-        <label for="phonenumberInput">
-          Phone number : <input type="tel" id="phonenumberInput">
-        </label>
-
-        Rate us:
+        <div>
+            <label for="firstnameInput">
+            First name : <input type="text" id="firstnameInput"/>
+            </label>
+        </div>
+        <div>
+            <label for="lastnameInput">
+            Last name : <input type="text" id="lastnameInput"/>
+            </label>
+        </div>
+        <div>
+            <label for="emailInput">
+            Email : <input type="email" id="emailInput"/>
+            </label>
+        </div>
+        <div>
+            <label for="phonenumberInput">
+            Phone number : <input type="tel" id="phonenumberInput"/>
+            </label>
+        </div>
+        <div>
+            Rate us:
+        </div>
         <select name="rate">
             <option value="very_good">Very good</option>
             <option value="good">Good</option>
@@ -93,25 +100,32 @@
             <option value="not_good">Not Good</option>
             <option value="bad">Bad</option>
         </select>
-
-        Your comment:
-        <textarea cols="50" rows="4"></textarea>
+        
+        <div>
+            Your comment:
+        </div>
+        <textarea cols="50" rows="4">
+        </textarea>
+        <div>
         Would you visit us again?
+        </div>
+        <div>
         <label for="yesInput">
-          Yes : <input type="radio" name="visit" id="yesInput">
+          Yes : <input type="radio" name="visit" id="yesInput"/>
         </label>
+        </div>
+        <div>
         <label for="noInput">
-          No : <input type="radio" name="visit" id="noInput">
+          No : <input type="radio" name="visit" id="noInput"/>
         </label>
-
+        </div>
         <label for="submitButton">
-          <input type="submit" id="submitButton" value="Submit">
+          <input type="submit" id="submitButton" value="Submit"/>
         </label>
       </fieldset>
     </form>
     <footer>
-      This is where any content in the 
-    footer would go
+      This is where any content in the footer would go
     </footer>
 
   </body>
